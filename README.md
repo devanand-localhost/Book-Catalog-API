@@ -1,4 +1,4 @@
-# Book Catalog API using Node.js, GraphQL and MongoDB
+# Book Catalog CRUD API using Node.js, GraphQL and MongoDB
 
 ### Start using - npm start / npm run dev
 
