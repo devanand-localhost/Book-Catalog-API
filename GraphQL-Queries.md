@@ -1,8 +1,8 @@
 # AUTHOR OPERATIONS
 
-# =====================================
+## =====================================
 
-# Query - Get all authors
+## Query - Get all authors
 
 ```graphql
 query GetAllAuthors {
@@ -17,7 +17,7 @@ query GetAllAuthors {
 }
 ```
 
-# Query - Get single author by ID
+## Query - Get single author by ID
 
 ```graphql
 query GetAuthorById {
@@ -36,7 +36,7 @@ query GetAuthorById {
 }
 ```
 
-# Mutation - Create new author
+## Mutation - Create new author
 
 ```graphql
 mutation CreateAuthor {
@@ -57,7 +57,7 @@ mutation CreateAuthor {
 }
 ```
 
-# Mutation - Update existing author
+## Mutation - Update existing author
 
 ```graphql
 mutation UpdateAuthor {
@@ -75,7 +75,7 @@ mutation UpdateAuthor {
 }
 ```
 
-# Mutation - Delete author
+## Mutation - Delete author
 
 ```graphql
 mutation DeleteAuthor {
@@ -85,9 +85,9 @@ mutation DeleteAuthor {
 
 # CATEGORY OPERATIONS
 
-# =====================================
+## =====================================
 
-# Query - Get all categories
+## Query - Get all categories
 
 ```graphql
 query GetAllCategories {
@@ -101,7 +101,7 @@ query GetAllCategories {
 }
 ```
 
-# Query - Get single category by ID
+## Query - Get single category by ID
 
 ```graphql
 query GetCategoryById {
@@ -119,7 +119,7 @@ query GetCategoryById {
 }
 ```
 
-# Mutation - Create new category
+## Mutation - Create new category
 
 ```graphql
 mutation CreateCategory {
@@ -138,7 +138,7 @@ mutation CreateCategory {
 }
 ```
 
-# Mutation - Update existing category
+## Mutation - Update existing category
 
 ```graphql
 mutation UpdateCategory {
@@ -155,7 +155,7 @@ mutation UpdateCategory {
 }
 ```
 
-# Mutation - Delete category
+## Mutation - Delete category
 
 ```graphql
 mutation DeleteCategory {
@@ -165,9 +165,9 @@ mutation DeleteCategory {
 
 # BOOK OPERATIONS
 
-# =====================================
+## =====================================
 
-# Query - Get all books
+## Query - Get all books
 
 ```graphql
 query GetAllBooks {
@@ -192,7 +192,7 @@ query GetAllBooks {
 }
 ```
 
-# Query - Get single book by ID
+## Query - Get single book by ID
 
 ```graphql
 query GetBookById {
@@ -218,7 +218,7 @@ query GetBookById {
 }
 ```
 
-# Query - Get books by author
+## Query - Get books by author
 
 ```graphql
 query GetBooksByAuthor {
@@ -236,7 +236,7 @@ query GetBooksByAuthor {
 }
 ```
 
-# Query - Get books by category
+## Query - Get books by category
 
 ```graphql
 query GetBooksByCategory {
@@ -254,7 +254,7 @@ query GetBooksByCategory {
 }
 ```
 
-# Mutation - Create new book
+## Mutation - Create new book
 
 ```graphql
 mutation CreateBook {
@@ -289,7 +289,7 @@ mutation CreateBook {
 }
 ```
 
-# Mutation - Update existing book
+## Mutation - Update existing book
 
 ```graphql
 mutation UpdateBook {
@@ -317,7 +317,7 @@ mutation UpdateBook {
 }
 ```
 
-# Mutation - Delete book
+## Mutation - Delete book
 
 ```graphql
 mutation DeleteBook {
@@ -327,9 +327,9 @@ mutation DeleteBook {
 
 # COMPLEX QUERIES (MULTIPLE OPERATIONS IN ONE REQUEST)
 
-# ====================================================
+## ====================================================
 
-# Query - Get all data at once (books, authors, categories)
+## Query - Get all data at once (books, authors, categories)
 
 ```graphql
 query GetAllData {
@@ -349,7 +349,7 @@ query GetAllData {
 }
 ```
 
-# Query - Get detailed book with author's other books
+## Query - Get detailed book with author's other books
 
 ```graphql
 query GetBookWithAuthorWorks {
@@ -369,7 +369,7 @@ query GetBookWithAuthorWorks {
 }
 ```
 
-# Query - Get categories with their books and authors
+## Query - Get categories with their books and authors
 
 ```graphql
 query GetCategoriesWithBooks {

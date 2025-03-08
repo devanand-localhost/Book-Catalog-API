@@ -1,6 +1,6 @@
 ## Connect to MongoDB shell
 
-## mongo
+## sudo docker exec -it mongodb mongosh
 
 ## Switch to the book-catalog database
 
