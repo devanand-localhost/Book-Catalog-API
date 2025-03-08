@@ -2,7 +2,7 @@
 // mongo
 
 // Switch to the book-catalog database
-use book-catalog
+use bookCatalogTest
 
 // View all books
 db.books.find().pretty()
