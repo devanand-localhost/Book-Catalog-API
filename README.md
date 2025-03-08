@@ -1,6 +1,6 @@
 # Book Catalog API using Node.js, GraphQL and MongoDB
 
-### Start using - npm start -or- npm run dev
+### Start using - npm start / npm run dev
 
 ### Access the GraphQL Playground at http://localhost:4000/graphql
 
