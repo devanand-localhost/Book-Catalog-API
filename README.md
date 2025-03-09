@@ -1,7 +1,5 @@
 # Book Catalog CRUD API using Node.js, GraphQL and MongoDB
 
-### Start using - npm start / npm run dev
-
 ### Access the Appollo GraphQL Sanbox Playground at http://localhost:4000/graphql
 
 ## Example Queries and Mutations -
